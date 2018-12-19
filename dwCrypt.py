@@ -105,7 +105,7 @@ class fileMap:
         MB = (1024 * 1024)
         self.buff = (MB)
         self.fileChunk = (5 * MB)
-        self.fileDir = '/home/jnewsom/Documents/files/'
+        self.fileDir = '/home/omgimdrunk/Documents/files/'
         self.dwFile = 'deb.iso'
         self.thsFile = self.fileDir + self.dwFile
         self.fs = os.path.getsize(self.thsFile)
